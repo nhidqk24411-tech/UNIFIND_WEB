@@ -1,0 +1,9 @@
+{
+  "name": "Remix: Remix: UniFind - Tìm kiếm đồ thất lạc",
+  "description": "A modern, AI-powered lost and found platform for university students. Features a dark blue theme, smart search, and easy item reporting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
