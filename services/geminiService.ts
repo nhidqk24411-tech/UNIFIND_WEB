@@ -2,7 +2,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { FoundItem } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
+const ai = new GoogleGenAI({
+  apiKey: import.meta.env.VITE_GEMINI_API_KEY
+});
 
 // Existing Functions...
 export const findMatchingItems = async (query: string, availableItems: FoundItem[]): Promise<string[]> => {
